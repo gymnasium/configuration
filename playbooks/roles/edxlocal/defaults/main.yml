@@ -4,3 +4,4 @@ edxlocal_debian_pkgs:
   - mysql-server-5.5
   - postfix
   - libjpeg-dev
+  - memcached
