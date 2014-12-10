@@ -439,6 +439,12 @@ edxapp_all_req_files:
 
 # TODO: old style variable syntax is necessary
 # for lists and dictionaries
+edxapp_helper_scripts:
+    - edxapp-migrate
+    - edxapp-runserver
+    - edxapp-syncdb
+    - edxapp-update-assets
+    - edxapp-shell
 
 edxapp_environment:
   LANG: "{{ EDXAPP_LANG }}"
